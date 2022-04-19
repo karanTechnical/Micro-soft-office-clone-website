@@ -1,0 +1,105 @@
+*{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+.bodystyle{
+	width: 90%; margin: 0 auto;
+}
+.logostyle{
+	height: 50px;
+}
+.carousel-item{
+	position: relative;
+
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 10px;
+	left: 7%!important;
+}
+.carousel-caption h5{
+	text-align: left;
+	color: black;
+}
+.carousel-caption p{
+	text-align: left;
+	color: black;
+}
+.carousel-caption button{
+	color: #fff;
+	background: #000;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: none;
+	position: absolute;
+	left: 0;
+
+}
+main{
+	margin-top: 40px;
+
+}
+.card{
+	
+	left:0;
+	border: none;
+}
+.card-body{padding: 5px 0;}
+
+.card-img-top{height: 170px;}
+
+.msstyle{
+	width: 100%;
+	height: 450px;
+	background-image: url('panaroma6.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 20px 0px 40px 0;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding-left: 70px;
+}
+
+button{
+	color: #000;
+	background: #fff;
+	font-size: 15px;
+	padding: 10px 20px;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+.btmcardsec{
+	margin: 50px 0;
+}
+.socialsec{
+	margin-bottom: 40px;
+}
+.fa-youtube{color: red;}
+.fa-facebook-official{color: #425daa;}
+
+footer{
+	background: #f2f2f2;
+	padding: 40px 0;
+
+}
+footer li{
+	list-style: none;
+
+}
+footer a{
+	text-decoration: none;
+	color: #818181;
+}
+.footerbtmenu{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.navbar-collapse{
+	justify-content: space-between;
+}
